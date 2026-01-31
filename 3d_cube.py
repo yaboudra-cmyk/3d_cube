@@ -6,12 +6,13 @@ root.title("Drawing App - Lesson 1")
 root.geometry("500x500")
 root.configure(bg="lightgray")
 
+WIDTH, HEIGHT = 500, 500
 SCALE = 100
 OFFSET_X = WIDTH // 2
 OFFSET_Y = HEIGHT // 2
 ANGLE = 0
 CAMERA = 5
-WIDTH, HEIGHT = 500, 500
+
 canvas = tk.Canvas(root, width=WIDTH, height=HEIGHT, bg="white")
 canvas.pack()
 
